@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;    
+}
+
+header {
+    background: lightgrey;
+    padding: 0px;
+    text-align: center;
+}
+
+#form-row {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+}
+
+#form-row input {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+#form-row button {
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    padding: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.todo {
+    width: 350px;
+    margin-right: 10px;
+}
+
+.todo-form {
+    padding: 20px;
+    border-radius: 12px;
+    background: grey;
+    font-size: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    border-radius: 8px;
+    background: rgb(29, 29, 29);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+}
+
+.deleteButton {
+    padding: 5px 10px;
+    
+}
+
+li {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+    width: 100%;
+    background-color: antiquewhite;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    background: lightgrey;
+}
